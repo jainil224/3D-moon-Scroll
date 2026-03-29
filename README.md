@@ -68,7 +68,7 @@ Our 3D experience is built using modern, powerful tools:
 * **[Framer Motion 3D](https://www.framer.com/motion/three/)** - For elegant, physics-based camera and mesh animations.
 * **[Lenis Smooth Scroll](https://lenis.studiofreight.com/)** - For an ultra-smooth scrolling experience that syncs perfectly with our 3D rotation.
 
----
+-----
 
 ## 🎨 UI HUB Branding & Design Standards
 
