@@ -25,9 +25,7 @@
   },
 
   "overrides": {
-    "three-mesh-bvh": "^0.9.9",
-    "framer-motion-3d": {
-      "@react-three/fiber": "^9.5.0"
-    }
+    "three-mesh-bvh": "^0.9.9"
   }
+
 }
