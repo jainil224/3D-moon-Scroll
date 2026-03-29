@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/drei": "^9.80.9",
-    "@react-three/fiber": "^8.13.7",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
     "@studio-freight/lenis": "^1.0.19",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
-    "framer-motion": "^10.16.2",
-    "framer-motion-3d": "^10.16.2",
+    "framer-motion": "^12.4.1",
+    "framer-motion-3d": "^12.4.13",
     "next": "^13.5.11",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -24,6 +24,9 @@
     "three-mesh-bvh": "^0.9.9"
   },
   "overrides": {
-    "three-mesh-bvh": "^0.9.9"
+    "three-mesh-bvh": "^0.9.9",
+    "framer-motion-3d": {
+      "@react-three/fiber": "^9.5.0"
+    }
   }
 }
