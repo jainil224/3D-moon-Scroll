@@ -23,10 +23,7 @@
     "three": "^0.183.2",
     "three-mesh-bvh": "^0.9.9"
   },
-  "optionalDependencies": {
-    "@next/swc-linux-x64-gnu": "13.5.11",
-    "@next/swc-linux-x64-musl": "13.5.11"
-  },
+
   "overrides": {
     "three-mesh-bvh": "^0.9.9",
     "framer-motion-3d": {
