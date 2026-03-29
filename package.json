@@ -11,17 +11,21 @@
   "dependencies": {
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
-    "@studio-freight/lenis": "^1.0.19",
-    "eslint": "8.48.0",
+    "lenis": "^1.3.21",
+    "eslint": "^8.57.0",
     "eslint-config-next": "13.4.19",
     "framer-motion": "^12.4.1",
-    "framer-motion-3d": "^12.4.13",
+    "framer-motion-3d": "^11.1.9",
     "next": "^13.5.11",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.66.1",
     "three": "^0.183.2",
     "three-mesh-bvh": "^0.9.9"
+  },
+  "optionalDependencies": {
+    "@next/swc-linux-x64-gnu": "13.5.11",
+    "@next/swc-linux-x64-musl": "13.5.11"
   },
   "overrides": {
     "three-mesh-bvh": "^0.9.9",
