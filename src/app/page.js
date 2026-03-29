@@ -1,11 +1,11 @@
 import styles from './page.module.scss'
 import React from 'react';
 import dynamic from 'next/dynamic';
-import SmoothScroll from '@/components/smoothScroll';
+import SmoothScroll from '@/components/SmoothScroll';
 import Projects from '@/components/projects';
 import Hero from '@/components/hero';
 
-const Earth = dynamic(() => import('@/components/earth'), {
+const Earth = dynamic(() => import('@/components/Earth'), {
   ssr: false,
   // eslint-disable-next-line @next/next/no-img-element
   loading: () => <img src="/assets/placeholder.png" alt="placeholder"></img>
