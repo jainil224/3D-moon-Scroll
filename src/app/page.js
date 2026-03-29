@@ -7,7 +7,8 @@ import Hero from '@/components/hero';
 
 const Earth = dynamic(() => import('@/components/earth'), {
   ssr: false,
-  loading: () => <img src="/assets/placeholder.png"></img>
+  // eslint-disable-next-line @next/next/no-img-element
+  loading: () => <img src="/assets/placeholder.png" alt="placeholder"></img>
 })
 
 export default function Home() {
